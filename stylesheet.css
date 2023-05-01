@@ -1,0 +1,77 @@
+/*STYLESHEET*/
+*{
+    font-family: Harry_Potter_Font;
+}
+
+label{
+    font-size:35px;
+}
+
+#username, #password, #stud_id, #stu_id, #stu_year, #uid{
+    width:200px;
+    height:30px;
+    border-radius:10px;
+    border:2px solid rgb(0, 0, 0); 
+    font-size:35px;
+}
+/*
+.btn_logout{
+    background-color: #BE1CCB;
+    color:#FFFFFF;
+    padding: 14px 40px;
+    border-radius: 12px;
+    border: #EB58F7;
+    font-size:20px;
+}*/
+
+button {
+    z-index: 1;
+    background-color:#4B0150;/*#461B7E; #6C2DC7;*/
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Harry_Potter_Font;
+    padding: 15px 34px;
+    color: #D4AF37;
+    text-decoration: none;
+    /*border: solid 5px #e4dee4;*/
+    box-shadow: 12px 12px 0  -5px #3a229c;/*#7F38EC;*/
+    transition: .3s;
+     overflow: hidden;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  button:before {
+    display: inline-block;
+    transition: bottom, 0.35s;
+    position: absolute;
+    transform: skew(-50deg);
+    top: 0px;
+    left: 260px;
+    background-color: #000000;
+    content: "　";
+    width: 222px;
+    height: 120px;
+    z-index: -1;
+  }
+  
+  button:hover {
+     box-shadow: 0px 0px 0  0px #000000;
+  
+  }
+  
+  button:hover:before {
+    top: -40px;
+    left: -40px;
+  }
+
+@font-face {
+    font-family: Harry_Potter_Font;
+    src: url(HarryP.ttf);
+}
+
+@font-face {
+    font-family: HP_Font;
+    src: url(BluuNext-Titling.otf);
+}
