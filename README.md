@@ -3,7 +3,8 @@ The website is an exam management system which can be used by students and opera
 The website consists of a login page, result login page, result page, and a page for editing the result managed by professors and admin.
 
 ### Pages
-* `Login Page`  
+* `Login Page`
+![alt text](https://drive.google.com/drive/u/1/folders/1fKn1L1vFEAZh85vgpm1dH37JY3x1mplD)
 Professors, admin and students can login and will be redirected to specific pages.
 
 * `Result Login Page`   
