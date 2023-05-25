@@ -4,7 +4,6 @@ The website consists of a login page, result login page, result page, and a page
 
 ### Pages
 * `Login Page`
-![alt text](https://drive.google.com/drive/u/1/folders/1fKn1L1vFEAZh85vgpm1dH37JY3x1mplD)
 Professors, admin and students can login and will be redirected to specific pages.
 
 * `Result Login Page`   
